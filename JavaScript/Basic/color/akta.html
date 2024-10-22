@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wave-like RGB Light with ::before & ::after</title>
+<style>
+  /* Main text styling */
+  .wave-text {
+    position: relative;
+    font-size: 48px;
+    font-weight: bold;
+    color: transparent;           /* Base color set to transparent */
+    text-align: center;           /* Center-align the text */
+    overflow: hidden;             /* Prevent overflow of pseudo-elements */
+  }
+
+  /* Before and After pseudo-elements styling */
+  .wave-text::before,
+  .wave-text::after {
+    content: attr(data-text);     /* Copies the text content */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, red, green, blue); /* Gradient background */
+    background-size: 200%;        /* Make gradient size larger for movement */
+    -webkit-background-clip: text;
+    background-clip: text;        /* Clip the gradient to the text */
+    color: transparent;           /* Text color transparent to see gradient */
+    z-index: -1;                  /* Position behind the main text */
+  }
+
+  /* Animation for before and after elements */
+  .wave-text::before {
+    animation: wave-glow 2s infinite linear;  /* Faster animation */
+  }
+
+  .wave-text::after {
+    animation: wave-glow 2s infinite linear;  /* Same speed but offset */
+    animation-delay: 1s;                      /* Adds delay to create wave effect */
+  }
+
+  /* Keyframes for wave-like RGB effect */
+  @keyframes wave-glow {
+    0% {
+      background-position: 0% 50%;            /* Start position */
+    }
+    100% {
+      background-position: 200% 50%;          /* Full cycle for wave effect */
+    }
+  }
+</style>
+</head>
+<body>
+
+<p class="wave-text" data-text="This is a wave-like flowing RGB text effect!">
+  This is a wave-like flowing RGB text effect!
+</p>
+
+</body>
+</html>

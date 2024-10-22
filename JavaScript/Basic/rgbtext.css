@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.text {
+    font-size: 150px;
+    text-align: center;
+    margin-top: 300px;
+    position: relative;
+    font-weight: bold;
+    overflow: hidden;
+    color: transparent;
+    z-index: 0;
+}
+
+.text::before {
+    content: "Tasrif Ahmed Nabil";
+    position: absolute;
+    /* color: transparent; */
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      red, rgb(2, 145, 2), blue, rgb(181, 121, 11), red
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    z-index: 1;
+    filter: contrast(2);
+}
+
+.text::before {
+    animation: ani 7s linear infinite;
+}
+
+/* .text::after {
+    animation: ani 4s linear infinite;
+    animation-delay: 1s;
+} */
+
+@keyframes ani {
+    0% {
+        background-position: 100% 0;
+    }
+    /* 50% {
+        background-position: 100% 50%;
+    } */
+    100% {
+        background-position: -100% 0;
+    }
+}

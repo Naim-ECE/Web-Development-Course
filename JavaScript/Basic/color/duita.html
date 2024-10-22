@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wave-like RGB Light on Text</title>
+<style>
+  /* Main text styling */
+  .wave-text {
+    position: relative;
+    font-size: 48px;                /* Font size of the text */
+    font-weight: bold;              /* Font weight of the text */
+    color: transparent;             /* Base color transparent for gradient effect */
+    background: linear-gradient(90deg, red, green, blue); /* Starting gradient */
+    background-size: 300%;          /* Make gradient size larger for movement */
+    -webkit-background-clip: text;  /* Clip background to text */
+    background-clip: text;          /* Clip background to text */
+    animation: wave-glow 5s infinite; /* Apply animation */
+    text-align: center;             /* Center-align the text */
+  }
+
+  /* Animation for wave-like RGB effect */
+  @keyframes wave-glow {
+    0% {
+      background-position: 0% 50%;  /* Start position */
+    }
+    50% {
+      background-position: 100% 50%; /* Midway position (full cycle) */
+    }
+    100% {
+      background-position: 0% 50%;  /* Back to start position */
+    }
+  }
+</style>
+</head>
+<body>
+
+<p class="wave-text">This is a wave-like flowing RGB text effect!</p>
+
+</body>
+</html>

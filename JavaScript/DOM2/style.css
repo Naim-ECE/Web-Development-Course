@@ -1,0 +1,23 @@
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: #adff2f;
+    border: 2px #000000 solid;
+    text-align: center;
+}
+
+.content {
+    color: #000000;
+}
+
+.port {
+    background-color: #00ff00;
+}
+
+.aim {
+    text-decoration: underline;
+}
+
+.col {
+    color: #0059ff;
+}
