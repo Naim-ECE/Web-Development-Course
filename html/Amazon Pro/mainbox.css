@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box; /*counts the border in the same value of height and width*/
+}
+
+/*Hero Section*/
+
+.hero-sec {
+    height: 600px;
+    background-image: url("71Ie3JXGfVL._SX3000_.jpg");
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.hero-msg {
+    height: 40px;
+    width: 90%;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #0b0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    cursor: initial;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: #007185;
+}
+
+/**Shop Section**/
+
+.march {
+    margin-top: 20px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #eaeeed;
+}
+
+.ht {
+    height: 420px;
+    border: 2px solid #ffffff;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: #ffffff;
+}
+
+.Entire1 {
+    background-image: url("watch_.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 15px 0px 15px 0px;
+}
+
+.box1 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box1 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box1 h2 {
+    color: #0f1111;
+}
+
+.all1 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire2 {
+    background-image: url("toy.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box2 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box2 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box2 h2 {
+    color: #0f1111;
+}
+
+.all2 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire3 {
+    background-image: url("cpu.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box3 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box3 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box3 h2 {
+    color: #0f1111;
+}
+
+.all3 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire4 {
+    background-image: url("cosmetics.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box4 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box4 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box4 h2 {
+    color: #0f1111;
+}
+
+.all4 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire5 {
+    background-image: url("boxes.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box5 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box5 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box5 h2 {
+    color: #0f1111;
+}
+
+.all5 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire6 {
+    background-image: url("furniture.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box6 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box6 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box6 h2 {
+    color: #0f1111;
+}
+
+.all6 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire7 {
+    background-image: url("2097.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box7 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box7 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box7 h2 {
+    color: #0f1111;
+}
+
+.all7 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire8 {
+    background-image: url("gameplay.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box8 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box8 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box8 h2 {
+    color: #0f1111;
+}
+
+.all8 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire9 {
+    background-image: url("high-angle-gaming-setup-indoors.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box9 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box9 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box9 h2 {
+    color: #0f1111;
+}
+
+.all9 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire10 {
+    background-image: url("android.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box10 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box10 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box10 h2 {
+    color: #0f1111;
+}
+
+.all10 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire11 {
+    background-image: url("sunglass.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box11 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box11 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box11 h2 {
+    color: #0f1111;
+}
+
+.all11 {
+    padding: 0px 20px 0px 20px;
+}
+
+/**/
+
+.Entire12 {
+    background-image: url("theregisti-YwJGDLKOE48-unsplash.jpg");
+    background-size: cover;
+    height: 313.7px;
+    margin: 43px 0px 15px 0px;
+}
+
+.box12 p{
+    color: #007185;
+    cursor: pointer;
+    padding-top: 9px;
+}
+
+.box12 p:hover {
+    color: rgb(240, 45, 45);
+}
+
+.box12 h2 {
+    color: #0f1111;
+}
+
+.all12 {
+    padding: 0px 20px 0px 20px;
+}
