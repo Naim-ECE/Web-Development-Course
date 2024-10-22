@@ -1,0 +1,20 @@
+button {
+    background-color: rgb(168, 31, 31);
+    border: none;
+    height: 36px;
+    color: white;
+    cursor: pointer;
+
+}
+h1 {
+    background-color: aqua;
+    border: none;
+    color: blue;
+    width: 125px;
+}
+h2 {
+    /* background-color: aqua; */
+    border: none;
+    color: blue;
+    /* width: 125px; */
+}
