@@ -1,0 +1,89 @@
+* {
+    border: none;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 915px;
+    grid-template-columns: 295px 4fr;
+    gap: 12px; 
+}
+
+.item1 {
+    background-color: rgb(242, 242, 14);    
+    color: black;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+}
+
+.item1 p {
+    position: absolute;
+    top: 12px;
+    left: 23px;
+}
+
+.item2 {
+    display: grid;
+    grid-template-rows: 100px 2fr 70px;
+    grid-template-columns: 4fr 300px;
+    gap: 12px;
+}
+
+.d1 {
+    background-color: rgb(242, 242, 14);
+    grid-area: 1 / 1/ 2/ 3;    
+    color: black;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+}
+
+.d2 {
+    background-color: rgb(242, 242, 14);
+    color: black;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+}
+
+.d3 {
+    background-color: rgb(242, 242, 14);
+    color: black;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+}
+
+.d4 {
+    background-color: rgb(242, 242, 14);
+    grid-area: 3 / 1 / 4 / 3;
+    color: black;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+}
+
+.d1 p {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.d2 p {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.d3 p {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.d4 p {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}

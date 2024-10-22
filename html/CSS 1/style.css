@@ -1,0 +1,93 @@
+#a100 {
+    color: #0000ff;
+}
+
+#a101 {
+    color: #00ff00;
+}
+
+#a102 {
+    color: rgb(92, 209, 244);
+}
+
+p {
+    color: rgb(255, 0, 255);
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    height: 53px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.a90 {
+    color: orangered;
+}
+
+#BOX {
+    color: white;
+    background-color: blue;
+    font-size: 28px;
+}
+
+#b1 {
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#b2 {
+    color: gold;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#w1 {
+    text-decoration: red wavy underline;
+    font-family: cursive; /*like hand writing*/
+}
+
+.header {
+    color: brown;
+}
+
+#io {
+    font-weight: lighter;
+}
+
+#io1 {
+    font-weight: normal;
+}
+
+#io2 {
+    font-weight: bolder;
+}
+
+#hd {
+    text-align: center;
+    text-transform: capitalize;
+    color: aqua;
+}
+
+#outer {
+    color: yellow;
+    font-size: 25px;
+}
+
+#inner {
+    color: lime;
+    font-size: 10px;
+}
